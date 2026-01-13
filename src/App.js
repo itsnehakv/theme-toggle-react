@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import DarkMode from "./Components/DarkMode/DarkMode";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <DarkMode />
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p className="App-text">Switch between themes to see the changes.</p>
         <a
           className="App-link"
           href="https://reactjs.org"
