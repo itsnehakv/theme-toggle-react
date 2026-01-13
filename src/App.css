@@ -31,6 +31,7 @@
 .App-text {
   color: var(--text_color);
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
