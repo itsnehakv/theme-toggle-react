@@ -1,11 +1,11 @@
-import React, { use } from "react";
+import { useState } from "react";
 import { ReactComponent as Sun } from "./Sun.svg";
 import { ReactComponent as Moon } from "./Moon.svg";
 import "./DarkMode.css";
 import { useEffect } from "react";
 
 const DarkMode = () => {
-  const [theme, setTheme] = React.useState("light");
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
