@@ -2,7 +2,7 @@
 A simple React project that allows users to switch between **light and dark modes**. This React project is deployed live on **Netlify**, making it accessible online without any server setup.
 
 <p align="center">
-  <a href="https://dark-light-theme-toggle-react.netlify.app/">
+  <a href="https://dark-light-theme-toggle-react.netlify.app/"      style="text-decoration:none; background-color:#282c34; color:white; padding:8px 16px; border-radius:5px;">
     ☀️ LIVE DEMO 🌙
   </a>
 </p>
